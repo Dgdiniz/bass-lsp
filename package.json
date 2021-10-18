@@ -1,0 +1,21 @@
+{
+  "name": "bass-lsp",
+  "version": "1.0.0",
+  "description": "A Language Server Protocol for programming for Snes, Mega Drive, Nes and other old consoles using Bass assembler.",
+  "main": "bass-lsp.js",
+  "bin": {
+    "bass-lsp": "./bass-lsp.js"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Douglas Diniz",
+  "license": "MIT",
+  "dependencies": {
+    "vscode-languageserver": "^7.0.0",
+    "vscode-languageserver-textdocument": "^1.0.2"
+  }
+}
